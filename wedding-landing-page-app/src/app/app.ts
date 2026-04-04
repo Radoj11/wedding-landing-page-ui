@@ -69,14 +69,16 @@ import { CommonModule } from '@angular/common';
           <div class="flex flex-col items-center p-8 rounded-2xl transition-transform hover:-translate-y-1 duration-300" style="background-color: white; box-shadow: 0 10px 30px -10px rgba(44, 62, 80, 0.05);">
             <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6" style="background-color: rgba(138, 154, 91, 0.1); color: #8A9A5B;">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"/>
-                <circle cx="12" cy="8" r="2"/>
-                <path d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"/>
+                <path d="m18 7 4 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9l4-2"/>
+                <path d="M14 22v-4a2 2 0 0 0-4 0v4"/>
+                <path d="M18 22V5l-6-3-6 3v17"/>
+                <path d="M12 7v5"/>
+                <path d="M10 9h4"/>
               </svg>
             </div>
             <h2 class="font-serif text-3xl font-semibold mb-2">Ceremonia</h2>
             <p class="mb-6 opacity-80 leading-relaxed max-w-xs">
-              Kościół pw. Najświętszego Serca Pana Jezusa<br>
+              Kościół pw. Chrystusa Króla<br>
               Niedźwiada 124A<br>
               Rozpoczęcie o 14:00
             </p>
